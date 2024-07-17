@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken Kebab",
+        "price": "10",
+        "image": "images/skebab.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Sausage Kebab",
+        "price": "10",
+        "image": "images/kebab.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Popcorn",
+        "price": "10",
+        "image": "images/skebab.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Chicken Nuggets",
+        "price": "10",
+        "image": "images/kebab.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Sausage Kebab",
+        "price": "10",
+        "image": "images/skebab.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Sausage Kebab",
+        "price": "10",
+        "image": "images/kebab.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Sausage Kebab",
+        "price": "10",
+        "image": "images/skebab.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Sausage Kebab",
+        "price": "10",
+        "image": "images/kebab.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Can Fanta",
+        "price": "10",
+        "image": "images/skebab.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Bottle Fanta",
+        "price": "10",
+        "image": "images/kebab.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Can Cocacola",
+        "price": "10",
+        "image": "images/skebab.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Bottle Cocacola",
+        "price": "10",
+        "image": "images/kebab.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "Cocktail",
+        "price": "10",
+        "image": "images/skebab.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "Kalypo",
+        "price": "10",
+        "image": "images/kebab.jpeg"
+    }
+]

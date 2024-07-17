@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #112dcb 0%, #2575fc 100%);
+    padding: 0 5%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.text-container {
+    color: #fff;
+    width: 50%;
+}
+
+.text-container img {
+    width: 50%;
+}
+
+.text-container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-container p {
+    font-weight: 200;
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.login-form label,
+.login-form input,
+.login-form button {
+    margin-bottom: 10px;
+}
+
+main .main-form {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffffcf;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+main .main-form h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+main .main-form .google-login {
+    padding-bottom: 20px;
+}
+
+main .main-form .google-login button {
+    display: flex;
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    transition: .3s;
+}
+
+main .main-form .google-login button:hover {
+    background: #fff;
+    color: #000;
+}
+
+main .main-form .google-login button i {
+    padding-right: 30px;
+    color: #ff3f3f;
+}
+
+main .main-form form .form-group {
+    padding: 6px 0;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main-form form .form-group label,
+input {
+    width: 250px;
+}
+
+main .main-form form .form-group input {
+    height: 30px;
+}
+
+main .main-form form .submit-group {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-form form .submit-group button {
+    width: 50%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #112dcb;
+    color: #fff;
+    transition: .3s;
+}
+
+main .main-form form .submit-group button:hover {
+    background: #fff;
+    color: #112dcb;
+}
+
+/* main .main-form form .login-link{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+main .main-form form p {
+    padding-top: 10px;
+}
+
+main .main-form form p a {
+    color: #000;
+}
+
+main .main-form form p a:hover {
+    color: #112dcb;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    /* Large desktops and laptops */
+    .text-container h1 {
+        font-size: 35px;
+    }
+
+    main .main-form h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Tablets and small desktops */
+    .text-container h1 {
+        font-size: 30px;
+    }
+
+    main .main-form h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Portrait tablets and large phones */
+    .text-container h1 {
+        font-size: 25px;
+    }
+
+    main .main-form h1 {
+        font-size: 18px;
+    }
+
+    main .main-form {
+        padding: 30px;
+    }
+
+    .text-container {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Portrait phones and small devices */
+    .text-container h1 {
+        font-size: 20px;
+    }
+
+    main .main-form h1 {
+        font-size: 16px;
+    }
+
+    .text-container img {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    main .main-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    /* Very small devices */
+    .text-container h1 {
+        font-size: 18px;
+    }
+
+    main .main-form h1 {
+        font-size: 14px;
+    }
+
+    .text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    main .main-form {
+        padding: 15px;
+    }
+}

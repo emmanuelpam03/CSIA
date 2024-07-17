@@ -1,0 +1,49 @@
+body{
+    background: #00a6ff;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 5%;
+    background-color: #f9f9f900;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-image img {
+    max-width: 100%;
+    height: 30rem;
+    border-radius: 8px;
+    margin-right: 2rem;
+}
+
+.about-content {
+    background: #fffb;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.about-class{
+    padding: 6rem 2rem;
+}
+
+.about-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-family: Anton SC;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    font-family: cursive;
+    color: #444;
+}
